@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Rubik+Mono+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    color-scheme: dark;
+    background-color: rgb(16,21,18);
+    color: rgb(255,245,235);
+}
+.bg {
+    position: fixed;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.8;
+}
+.bg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+h1 {
+    font-size: 3.4rem;
+    padding-bottom: 2rem;
+}
+h2 {
+    font-size: 2.8rem;
+    padding-inline: 1rem;
+    padding-bottom: 1.4rem;
+}
+h3 {
+    font-size: 2rem;
+    padding-inline:2rem;
+    padding-bottom: 1rem;
+}
+h4 {
+    font-size: 1.6rem;
+    padding-inline: 3rem;
+    padding-bottom: 0.8rem;
+}
+p {
+    font-size: 1.4rem;
+    padding-inline:4rem;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+.nav {
+    color: unset;
+    text-decoration: none;
+    margin-right: 1.2rem;
+}
+.embed {
+    color: unset;
+    text-decoration: none;
+}
+.pagestart {
+    padding-top: 10rem;
+}
+.pageend {
+    padding-bottom: 9rem;
+}
+.height {
+    min-height: 90vh;
+}
+.content {
+    background-image:linear-gradient(to right,rgba(16,21,18,0),rgba(16,21,18,0.9)0.5%99.5%,rgba(16,21,18,0));
+    margin-inline: 8rem;
+    padding-inline: 4rem;
+    padding-bottom: 1rem;
+}
+.titlefont {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.deffont {
+    font-family: 'Fragment Mono', monospace;
+}
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+.top {
+    margin-bottom: 1rem;
+}
+.headertitle {
+    padding-top: 0.8rem;
+    padding-right: 10rem;
+}
+.header {
+    position:absolute;
+    width: 100%;
+    height: 20%;
+}
+.navbar {
+    padding-top: 3rem;
+    padding-left: 10rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+form {
+    padding-inline: 20rem;
+}
+header {
+    width:100%;
+    background-image:linear-gradient(rgba(16,18,20,1) 90%,rgba(16,18,20,0));
+    height: 6rem;
+    align-items:center;
+    justify-content:center;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
